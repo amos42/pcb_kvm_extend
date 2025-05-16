@@ -7,6 +7,12 @@
 		(legacy_teardrops no)
 	)
 	(paper "A4")
+	(title_block
+		(title "kvm_switch")
+		(date "2025-05-16")
+		(rev "Rev1")
+		(company "Amos Home")
+	)
 	(layers
 		(0 "F.Cu" signal)
 		(2 "B.Cu" signal)
@@ -927,6 +933,7 @@
 		)
 		(property "Value" "PC817"
 			(at 0 -0.02 180)
+			(unlocked yes)
 			(layer "F.SilkS")
 			(uuid "c0ddfdba-f532-4b2f-8fae-49bd77a0e7b3")
 			(effects
@@ -5311,6 +5318,17 @@
 			)
 		)
 	)
+	(gr_circle
+		(center 128.55 85.35)
+		(end 128.8 85.35)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "47f0250b-81b6-4e0f-9241-1a30529a35bb")
+	)
 	(gr_poly
 		(pts
 			(xy 153.4 80.4) (xy 153.9 80) (xy 152.9 80)
@@ -5322,6 +5340,17 @@
 		(fill yes)
 		(layer "F.SilkS")
 		(uuid "4d1b4684-3f77-4ebe-a121-456c6cf68241")
+	)
+	(gr_circle
+		(center 128.5 80.65)
+		(end 128.75 80.65)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "5dbabe57-6bb7-4240-9dc7-43956e655095")
 	)
 	(gr_line
 		(start 142.3 93.8)
@@ -5342,6 +5371,17 @@
 		)
 		(layer "F.SilkS")
 		(uuid "97a4e22b-ffa3-40ec-9d36-12ae729b7033")
+	)
+	(gr_circle
+		(center 131.4 93.15)
+		(end 131.65 93.15)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "c76cfc2d-9cbb-40db-9f4d-7e5dc53445ee")
 	)
 	(gr_poly
 		(pts
